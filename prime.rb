@@ -1,12 +1,12 @@
 # 
-# 
+#
 # def prime?(number)
 #   if number%2 || number == 1
 #     return flase
-#   else 
-#       
+#   else
+#
 #   end
-#     
+#
 # end
 
 def divisible_by_remaining_odd_numbers?(n)
@@ -33,5 +33,5 @@ def prime?(n)
     false
   else
     divisible_by_remaining_odd_numbers?(n) ? false : true
-  end  
+  end
 end
